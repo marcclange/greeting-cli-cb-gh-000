@@ -1,3 +1,3 @@
 def greeting(name)
-  print "Hello #{name.chomp}. It's nice to meet you."
+  print "Hello #{name.strips}. It's nice to meet you."
 end
